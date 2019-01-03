@@ -147,17 +147,17 @@
 									
 								</div> 
 								
-								<div class="row animate-box">
-				                                	<div class="col-md-12 text-left fh5co-heading">
+								
+				                                <div class="col-md-12 text-left fh5co-heading">
 									<h2><span>Project Details</span></h2>
-									</div>
 								</div>
+								
 								<div class="title title-pin text-left">
 									<h3><a href="#">Analyzing Data</a></h3>	
 								</div>
 								<div class="blog-text text-left">
 									<div class="blog-text text-left">
-										<a href="#"><img class="img-responsive" src="images/HMBCdata.png" alt=""></a>	
+										<a href="#"><img src="images/HMBCdata.png" alt=""></a>	
 										<ul>
          										 <li>Correlated variables</li>
 											 <ul>
@@ -168,7 +168,7 @@
         									</ul>
 									</div>
 									<div class="blog-text text-left">
-										<a href="#"><img class="img-responsive" src="images/corrBC.png" alt=""></a>
+										<a href="#"><img src="images/corrBC.png" alt=""></a>
 										
 										<ul>
          										 <li>Overlapping variables</li>
@@ -182,11 +182,56 @@
 								</div>
 								
 								<div class="title title-pin text-left">
-									<h3><a href="#">Creating a Model</a></h3>	
+									<h3><a href="#">Creating a Model</a></h3>
+									<div class="blog-text text-left">
+										<p>Created different Models to test which gives highest accuracy score with narrowed features:</p>
+										<ul>
+											<li>Decision Tree</li>
+											<li>Random Forest</li>
+											<li>Multiple Logistic Regression</li>
+											<li>Gaussian Naive Bayes</li>
+										</ul>
+										<p>Gaussian  Model Benefits:</p>
+										<ul>
+											<li>Easy and fast to predict class of test data set.</li>
+											<li>Performs well in multi class prediction</li>
+											<li>When assumption of independence holds, a Naive Bayes classifier performs better compared to other models like logistic regression using less training data.</li>
+										</ul>
+										
+									</div>	
 								</div>
 								
 								<div class="title title-pin text-left">
-									<h3><a href="#">Validating the Model</a></h3>	
+									<h3><a href="#">Validation Result</a></h3>
+									<div class="blog-text text-left">
+										<ul>
+											<li>Training Data </li>
+											<ul>
+												<li>R<sup>2</sup>  value : 0.705126</li>
+												<li>Mean Absolute Error : 0.0689</li>
+											<ul>
+												
+											<li>Testing Data</li>
+											<ul>
+												<li>R<sup>2</sup> value : 0.83474</li>
+												<li>Mean Absolute Error : 0.03738</li>
+											<ul>	
+											<li>Both the measures improved on the test data, as R<sup>2</sup> got closer to  1 , and the MAE reduced in size.</li>
+											<li>Confusion Matrix:</li>
+												<table style="width:100%; border-spacing:0;">
+													<tr><th>Predicted</th><th>False</th><th>True</th></tr>
+													<tr><td>0</td><td>69 (True Negative)</td><td>1 (False Positive)</td></tr>
+													<tr><td>1</td><td>3 (False Negative)</td><td>34 (True Positive)</td></tr>
+          
+        											</table>
+										</ul>
+										<a href="#"><img src="images/finalhypo.png" alt=""></a>		
+										<p>Gaussian  Model Result Explanation:</p>
+										<ul>
+											<li>The model exemplifies that the 4 features used (area, texture, smoothness, concavity) can be used to predict diagnosis with the caveat that they are assumed to be independent</li>
+											
+										</ul>
+									</div>
 								</div>
 								
 								<div class="title title-pin text-left">
