@@ -136,6 +136,15 @@
 									<p>Categorizing tumor types using over thirty independent descriptors from medical reports by 
 									using best clustering algorithm amongst Gaussian Naive Bayes, Decision Tree, and Random Forest, 
 									Achieved 96.26% accuracy</p>
+									<h2>Description of Data</h2>
+									<ul>
+         									<li>Cancer Data Set has 8 different features which are computed from a digitized image of a 
+											fine needle aspirate (FNA) of a breast mass</li>
+										<li>Ten real-valued features are computed for each cell nucleus</li>
+										<li>Data set is composed of the mean, standard error and the “worst” of the above attributes</li>
+										<li>Data set contains patient ID number, and Diagnosis (M = malignant, B = benign)</li>
+									</ul>	
+									
 								</div> 
 								
 								<div class="row animate-box">
@@ -147,7 +156,28 @@
 									<h3><a href="#">Analyzing Data</a></h3>	
 								</div>
 								<div class="blog-text text-left">
-									
+									<a href="#"><img class="img-responsive" src="images/corrBC.png" alt=""></a>
+										<div class="blog-text text-left">
+										<ul>
+         										 <li>Overlapping variables</li>
+											 <ul>
+												 <li>Fractal Dimension</li>
+												 <li>Symmetry Mean</li>
+											 </ul>	 
+          										 <li>Eliminate overlapping variables from the model </li>
+        									</ul>
+									        </div>
+									<a href="#"><img class="img-responsive" src="images/corrBC.png" alt=""></a>
+										<div class="blog-text text-right">
+										<ul>
+         										 <li>Correlated variables</li>
+											 <ul>
+												 <li>Radius, Parameter, Area</li>
+												 <li>Concavity, Compactness and Concave points_mean</li>
+											 </ul>	 
+          										 <li>Identified independent variable by elimination correlated variables in order to avoid overfitting</li>
+        									</ul>
+									        </div>
 								</div>
 								
 								<div class="title title-pin text-left">
