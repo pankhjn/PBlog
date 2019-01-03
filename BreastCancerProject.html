@@ -130,7 +130,7 @@
 							<div class="fh5co-blog animate-box">
 								<div class="title title-pin text-left">
 									<span class="posted-on">Jul. 25, 2018</span>
-									<h3><a href="#">Overview</a></h3>	
+									<h3>Overview</h3>	
 								</div>
 								<div class="blog-text text-left">
 									<p>Categorizing tumor types using over thirty independent descriptors from medical reports by 
@@ -153,11 +153,11 @@
 								</div>
 								
 								<div class="title title-pin text-left">
-									<h3><a href="#">Analyzing Data</a></h3>	
+									<h3>Analyzing Data</h3>	
 								</div>
 								<div class="blog-text text-left">
 									<div class="blog-text text-left">
-										<a href="#"><img src="images/HMBCdata.png" alt=""></a>	
+										<span class="right"><img src="images/HMBCdata.png" alt=""></span>	
 										<ul>
          										 <li>Correlated variables</li>
 											 <ul>
@@ -168,7 +168,7 @@
         									</ul>
 									</div>
 									<div class="blog-text text-left">
-										<a href="#"><img src="images/corrBC.png" alt=""></a>
+										<span class="right">><img src="images/corrBC.png" alt=""></span>
 										
 										<ul>
          										 <li>Overlapping variables</li>
@@ -182,7 +182,7 @@
 								</div>
 								
 								<div class="title title-pin text-left">
-									<h3><a href="#">Creating a Model</a></h3>
+									<h3>Creating a Model</h3>
 									<div class="blog-text text-left">
 										<p>Created different Models to test which gives highest accuracy score with narrowed features:</p>
 										<ul>
@@ -202,44 +202,43 @@
 								</div>
 								
 								<div class="title title-pin text-left">
-									<h3><a href="#">Validation Result</a></h3>
+									<h3>Validation Result</h3>
 									<div class="blog-text text-left">
 										<ul>
-											<li>Training Data </li>
+										<li>Training Data </li>
 											<ul>
-												<li>R<sup>2</sup>  value : 0.705126</li>
-												<li>Mean Absolute Error : 0.0689</li>
-											<ul>
+											<li>R<sup>2</sup>  value : 0.705126</li>
+											<li>Mean Absolute Error : 0.0689</li>
+											</ul>
 												
-											<li>Testing Data</li>
+										<li>Testing Data</li>
 											<ul>
-												<li>R<sup>2</sup> value : 0.83474</li>
-												<li>Mean Absolute Error : 0.03738</li>
-											<ul>	
-											<li>Both the measures improved on the test data, as R<sup>2</sup> got closer to  1 , and the MAE reduced in size.</li>
-											<li>Confusion Matrix:</li>
-												<table style="width:100%; border-spacing:0;">
-													<tr><th>Predicted</th><th>False</th><th>True</th></tr>
-													<tr><td>0</td><td>69 (True Negative)</td><td>1 (False Positive)</td></tr>
-													<tr><td>1</td><td>3 (False Negative)</td><td>34 (True Positive)</td></tr>
+											<li>R<sup>2</sup> value : 0.83474</li>
+											<li>Mean Absolute Error : 0.03738</li>
+											</ul>	
+										<li>Both the measures improved on the test data, as R<sup>2</sup> got closer to  1 , and the MAE reduced in size.</li>
+										<li>Confusion Matrix:</li>
+											<table style="width:100%; border-spacing:0;">
+											<tr><th>Predicted</th><th>False</th><th>True</th></tr>
+											<tr><td>0</td><td>69 (True Negative)</td><td>1 (False Positive)</td></tr>
+											<tr><td>1</td><td>3 (False Negative)</td><td>34 (True Positive)</td></tr>
           
-        											</table>
+        										</table>
 										</ul>
-										<a href="#"><img src="images/Validation.png" alt=""></a>		
+										<span class="right"><img src="images/Validation.png" alt=""></span>		
 										<p>Gaussian  Model Result Explanation:</p>
 										<ul>
-											<li>The model exemplifies that the 4 features used (area, texture, smoothness, concavity) can be used to predict diagnosis with the caveat that they are assumed to be independent</li>
+										<li>The model exemplifies that the 4 features used (area, texture, smoothness, concavity) can be used to predict diagnosis with the caveat that they are assumed to be independent</li>
 											
 										</ul>
 									</div>
 								</div>
 								
 								<div class="title title-pin text-left">
-									<h3><a href="#">Visualization Of Simple Gaussian Naive Bayes</a></h3>
+									<h3>Visualization Of Simple Gaussian Naive Bayes</h3>
 									<div class="blog-text text-left">
-									<img src="images/Validation.png" alt="">
-									<span class="right"><img src="images/gb1.png" alt="example graphic" /></span>
-       									 <p>
+									<span class="left"><img src="images/gb1.png" alt="example graphic" /></span>
+       									<p>
                                                                          <ul>
 										 <li>A decision boundary computed for features from the model 
 											 using Gaussian naive Bayes classification. 
@@ -248,26 +247,26 @@
 											 of being part of each class
 										 </li>	 
 									</ul>
-									<span class="right"><img src="images/gb2.png" alt="example graphic" /></span>	
+									<span class="left"><img src="images/gb2.png" alt="example graphic" /></span>	
        									 </p>	
 										
 									</div>	
 								</div>
 								
 								<div class="title title-pin text-left">
-									<h3><a href="#">Learnings and Findings</a></h3>	
+									<h3>Learnings and Findings</h3>	
 									<div class="blog-text text-left">
-										<ul>
-											<li>FNA visual interpretation technique coupled  with the Machine learning model can 
-												predict cancer diagnosis  with 96% accuracy,  helping start treatment at earliest
-												possible time </li>
-											<li>Importance of knowing the data</li>
-										</ul>
+									<ul>
+									<li>FNA visual interpretation technique coupled  with the Machine learning model can 
+									predict cancer diagnosis  with 96% accuracy,  helping start treatment at earliest
+									possible time </li>
+									<li>Importance of knowing the data</li>
+									</ul>
 									</div>	
 								</div>
 								
 								<div class="title title-pin text-left">
-									<h5><a href="#">To Learn More Contact Below</a></h5>	
+									<h5>To Learn More Contact Below</h5>	
 								</div>
 								
 							</div>
