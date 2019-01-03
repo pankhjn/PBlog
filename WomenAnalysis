@@ -1,0 +1,372 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Data Science Posts;Data At Work; Data Science Blog by pankhuri</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Data Science Blog by pankhuri" />
+	<meta name="keywords" content="Data Science trends, my projects, services," />
+	<meta name="author" content="Pankhuri Jain" />
+
+	<!-- 
+	//////////////////////////////////////////////////////
+	DATA SCIENCE BLOG 
+	DESIGNED & DEVELOPED by PANKHURI
+		
+	Website: 		https://pankhjn.github.io/PBlog/
+	Email: 			pankh.jn@gmail.com
+	LinkedIn: 		https://www.linkedin.com/in/pankhjn
+	Facebook: 		https://www.facebook.com/pankhuri
+	//////////////////////////////////////////////////////
+	 -->
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Slab:400,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+		
+	<div class="fh5co-loader"></div>
+	
+	<div id="page">
+	<nav class="fh5co-nav" role="navigation">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="top-menu">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-7 text-left menu-1">
+								<ul>
+									<li><a href="index.html">Home</a></li>
+									<li class="active"><a href="portfolio.html">Portfolio</a></li>
+									<li class="has-dropdown">
+										<a href="blog.html">Blog</a>
+										<ul class="dropdown">
+											<li><a href="#">Techniques & Model</a></li>
+											<li><a href="#">Articles</a></li>
+											<li><a href="#">Events</a></li>
+											<li><a href="#">Trends</a></li>
+										</ul>
+									</li>
+									<li><a href="about.html">About</a></li>
+									<li><a href="contact.html">Contact</a></li>
+								</ul>
+							</div>
+							<div class="col-sm-5">
+								<ul class="fh5co-social-icons">
+									<li><a href="#"><i class="icon-twitter-with-circle"></i></a></li>
+									<li><a href="#"><i class="icon-facebook-with-circle"></i></a></li>
+									<li><a href="#"><i class="icon-linkedin-with-circle"></i></a></li>
+									<li><a href="#"><i class="icon-dribbble-with-circle"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 text-center menu-2">
+					<div id="fh5co-logo">
+						<h1>
+							<a href="index.html">
+							My Portfolio<span>.</span>
+							<small>Data Science</small>
+							</a>
+						</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+
+	<div id="fh5co-content" class="fh5co-no-pd-top">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-12 text-center fh5co-heading">
+					<h2><span>Predicting Cancer Category</span></h2>
+					<span class="category">Heathcare</span>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-9 col-padded-right">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="fh5co-blog animate-box">
+								<div class="title title-pin text-left">
+									<span class="posted-on">Jul. 25, 2018</span>
+									<h3>Overview</h3>	
+								</div>
+								<div class="blog-text text-left">
+									<p>Categorizing tumor types using over thirty independent descriptors from medical reports by 
+									using best clustering algorithm amongst Gaussian Naive Bayes, Decision Tree, and Random Forest, 
+									Achieved 96.26% accuracy</p>
+									<h2>Description of Data</h2>
+									<ul>
+         									<li>Cancer Data Set has 8 different features which are computed from a digitized image of a 
+											fine needle aspirate (FNA) of a breast mass</li>
+										<li>Ten real-valued features are computed for each cell nucleus</li>
+										<li>Data set is composed of the mean, standard error and the “worst” of the above attributes</li>
+										<li>Data set contains patient ID number, and Diagnosis (M = malignant, B = benign)</li>
+									</ul>	
+									
+								</div> 
+								
+								
+				                                <div class="col-md-12 text-left fh5co-heading">
+									<h2><span>Project Details</span></h2>
+								</div>
+								
+								<div class="title title-pin text-left">
+									<h3>Analyzing Data</h3>	
+								</div>
+								<div class="blog-text text-left">
+									<div class="blog-text text-left">
+										<span class="center"><img src="images/HMBCdata.png" alt="" height="800" width="700"></span>	
+										<ul>
+         										 <li>Correlated variables</li>
+											 <ul>
+												 <li>Radius, Parameter, Area</li>
+												 <li>Concavity, Compactness and Concave points_mean</li>
+											 </ul>	 
+          										 <li>Identified independent variable by elimination correlated variables in order to avoid overfitting</li>
+        									</ul>
+									</div>
+									<div class="blog-text text-left">
+										<span class="left"><img src="images/corrBC.png" alt="" height="600" width="600"></span>
+										
+										<ul>
+         										 <li>Overlapping variables</li>
+											 <ul>
+												 <li>Fractal Dimension</li>
+												 <li>Symmetry Mean</li>
+											 </ul>	 
+          										 <li>Eliminate overlapping variables from the model </li>
+        									</ul>
+									</div>
+								</div>
+								
+								<div class="title title-pin text-left">
+									<h3>Creating a Model</h3>
+									<div class="blog-text text-left">
+										<p>Created different Models to test which gives highest accuracy score with narrowed features:</p>
+										<ul>
+											<li>Decision Tree</li>
+											<li>Random Forest</li>
+											<li>Multiple Logistic Regression</li>
+											<li>Gaussian Naive Bayes</li>
+										</ul>
+										<p>Gaussian  Model Benefits:</p>
+										<ul>
+											<li>Easy and fast to predict class of test data set.</li>
+											<li>Performs well in multi class prediction</li>
+											<li>When assumption of independence holds, a Naive Bayes classifier performs better compared to other models like logistic regression using less training data.</li>
+										</ul>
+										
+									</div>	
+								</div>
+								
+								<div class="title title-pin text-left">
+									<h3>Validation Result</h3>
+									<div class="blog-text text-left">
+										<ul>
+										<li>Training Data </li>
+											<ul>
+											<li>R<sup>2</sup>  value : 0.705126</li>
+											<li>Mean Absolute Error : 0.0689</li>
+											</ul>
+												
+										<li>Testing Data</li>
+											<ul>
+											<li>R<sup>2</sup> value : 0.83474</li>
+											<li>Mean Absolute Error : 0.03738</li>
+											</ul>	
+										<li>Both the measures improved on the test data, as R<sup>2</sup> got closer to  1 , and the MAE reduced in size.</li>
+										<li>Confusion Matrix:</li>
+											<table style="width:100%; border-spacing:0;" border="1">
+											<tr><th>&nbsp;Predicted</th><th>&nbsp;False</th><th>&nbsp;True</th></tr>
+											<tr><td>&nbsp;0</td><td>&nbsp;69 (True Negative)</td><td>&nbsp;1 (False Positive)</td></tr>
+											<tr><td>&nbsp;1</td><td>&nbsp;3 (False Negative)</td><td>&nbsp;34 (True Positive)</td></tr>
+          
+        										</table>
+										</ul>
+										<span class="center"><img src="images/Validation.png" alt="" height="800" width="775"></span>		
+										<p>Gaussian  Model Result Explanation:</p>
+										<ul>
+										<li>The model exemplifies that the 4 features used (area, texture, smoothness, concavity) can be used to predict diagnosis with the caveat that they are assumed to be independent</li>
+											
+										</ul>
+									</div>
+								</div>
+								
+								<div class="title title-pin text-left">
+									<h3>Visualization Of Simple Gaussian Naive Bayes</h3>
+									<div class="blog-text text-left">
+									<span class="right"><img src="images/gb1.png" alt="example graphic"></span>
+									<span class="right"><img src="images/gb2.png" alt="example graphic"></span>	
+       									<p>
+									<ul>
+										<li>A decision boundary computed for features from the model 
+										using Gaussian naive Bayes classification. 
+										The line shows the decision boundary, which corresponds
+										to the curve where a new point has equal posterior probability 
+										of being part of each class</li>
+										<li> We see a slightly curved boundary in the classifications—in general, 
+										the boundary in Gaussian naive Bayes is quadratic</li>
+										<li>Final Model is function of these individual probabilities</li>
+									</ul>
+									</p>	
+									</div>	
+								</div>
+								
+								<div class="title title-pin text-left">
+									<h3>Random Forest First Estimator Visualization</h3>
+									<div class="blog-text text-left">
+									<span class="right"><img src="images/randomForest.png" alt="example graphic" height="800" width="800"></span>	
+									<p> 
+									<ul>	
+										<li>Random Forest is built using multiple Decision Trees.</li>
+										<li>Random Forest can measure the relative importance of any feature in a classification task.</li>
+										<li>The value numbers returned from forest correspond to the importance of the feature in the classification task.</li>
+									</ul>
+									</p>	
+										
+									</div>	
+								</div>
+								
+								<div class="title title-pin text-left">
+									<h3>Learnings and Findings</h3>	
+									<div class="blog-text text-left">
+									<ul>
+									<li>FNA visual interpretation technique coupled  with the Machine learning model can 
+									predict cancer diagnosis  with 96% accuracy,  helping start treatment at earliest
+									possible time </li>
+									<li>Importance of knowing the data</li>
+									</ul>
+									</div>	
+								</div>
+								
+								<div class="title title-pin text-left">
+									<h5>To Learn More Contact Below</h5>	
+								</div>
+								
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				
+				<aside>
+					<h2>Code Snippets To Follow</h2>
+				</aside>	
+
+			</div>
+		</div>
+	</div>
+	<footer id="fh5co-footer" role="contentinfo">
+		<div class="container">
+			<div class="row row-pb-md">
+				<div class="col-md-4 fh5co-widget">
+					<h4>Portfolio</h4>
+					<p>Data Science Freelancing.</p>
+				</div>
+				<div class="col-md-4 col-md-push-1">
+					<h4>Links</h4>
+					<ul class="fh5co-footer-links">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Portfolio</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div>
+
+				<div class="col-md-4 col-md-push-1">
+					<h4>Contact Information</h4>
+					<ul class="fh5co-footer-links">
+						<li>Unit 2112, <br> 352 Front Street West <br> Toronto CA M5V0K3</li>
+						<li><a href="tel://16473340209">+ 1 647 334 0209</a></li>
+						<li><a href="mailto:pankh.jn@gmail.com">pankh.jn@gmail.com</a></li>
+					</ul>
+				</div>
+
+			</div>
+
+			<div class="row copyright">
+				<div class="col-md-12 text-center">
+					<p>
+						<small class="block">&copy; 2018 Pblog. All Rights Reserved.</small> 
+						<small class="block">Designed by Pankhuri<a href="#" target="_blank"></a> Demo Images: Unsplash</small>
+					</p>
+					<p>
+						<ul class="fh5co-social-icons">
+							<li><a href="#"><i class="icon-twitter"></i></a></li>
+							<li><a href="#"><i class="icon-facebook"></i></a></li>
+							<li><a href="#"><i class="icon-linkedin"></i></a></li>
+							<li><a href="#"><i class="icon-dribbble"></i></a></li>
+						</ul>
+					</p>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
