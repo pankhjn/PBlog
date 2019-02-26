@@ -169,131 +169,79 @@
 								</div>
 								
 								<div class="title title-pin text-left">
-									<h3>Visualizing and Analyzing Data</h3>	
+									<h3>Global fishing volume increase at 30% CAGR between 2012 and 2016</h3>	
 								</div>
 								<div class="blog-text text-left">
 									<div class="blog-text text-left">
-										<span class="center"><img src="images/HMBCdata.png" alt="" height="800" width="700"></span>	
-										<ul>
-         										 <li>Correlated variables</li>
-											 <ul>
-												 <li>Radius, Parameter, Area</li>
-												 <li>Concavity, Compactness and Concave points_mean</li>
-											 </ul>	 
-          										 <li>Identified independent variable by elimination correlated variables in order to avoid overfitting</li>
-        									</ul>
-									</div>
-									<div class="blog-text text-left">
-										<span class="left"><img src="images/corrBC.png" alt="" height="600" width="600"></span>
+										<span class="center"><img src="images/GlobalData.png" alt="" height="800" width="700"></span>	
 										
-										<ul>
-         										 <li>Overlapping variables</li>
-											 <ul>
-												 <li>Fractal Dimension</li>
-												 <li>Symmetry Mean</li>
-											 </ul>	 
-          										 <li>Eliminate overlapping variables from the model </li>
-        									</ul>
-									</div>
-								</div>
 								
 								<div class="title title-pin text-left">
-									<h3>Creating a Model</h3>
+									<h3>Top 30 countries by finishing volumes</h3>
 									<div class="blog-text text-left">
+										<span class="center"><img src="images/FishedData.png" alt="" height="800" width="700"></span>
 										<p>Created different Models to test which gives highest accuracy score with narrowed features:</p>
 										<ul>
-											<li>Decision Tree</li>
-											<li>Random Forest</li>
-											<li>Multiple Logistic Regression</li>
-											<li>Gaussian Naive Bayes</li>
+											<li>China, Taiwan, Spain, France and Korea are top 5 countries by fishing volumes in 2016</li>
+											<li>Fishing volume of Top 5 countries accounted for 46.7% of total finisign volume in 2012, and it increased to 51% in 2016</li>
+											<li>China has highest finishing volume accounting for 17% of global fishing; it is also the fastest growing country by fishing volumes</li>
 										</ul>
-										<p>Gaussian  Model Benefits:</p>
-										<ul>
-											<li>Easy and fast to predict class of test data set.</li>
-											<li>Performs well in multi class prediction</li>
-											<li>When assumption of independence holds, a Naive Bayes classifier performs better compared to other models like logistic regression using less training data.</li>
-										</ul>
+										
 										
 									</div>	
 								</div>
 								
 								<div class="title title-pin text-left">
-									<h3>Validation Result</h3>
+									<h3>Top 30 Countries Whose Waters Are Fished (determined by hours)</h3>
 									<div class="blog-text text-left">
+										<span class="center"><img src="images/FishedData.png" alt="" height="800" width="775"></span>
 										<ul>
-										<li>Training Data </li>
+										<li>Top fishing areas by volume (>20K hours of fishing hours in 2016)</li>
+											<ol>
+											<li>GBR - United Kingdoms (Europe)</li>
+											<li>KIR - Kiribati (Oceania)</li>
+											<li>IRL - Ireland (Europe)</li>
+											<li>SJM - Svalbard and Jan Mayen (Europe)</li>
+											<li>SLB - Solomon Islands</li>
+											<li>VUT - Vanuatu (Oceania)</li>
+											<li>NOR - Norway (Europe)</li>	
+											</ol>
+												
+										<li>Key growth countries in last 2 years</li>
 											<ul>
-											<li>R<sup>2</sup>  value : 0.705126</li>
-											<li>Mean Absolute Error : 0.0689</li>
+											<li>FLK - Falkland Islands (Malvinas) (South America)</li>
+											<li>MDG -  Madagascar (Africa)</li>
+											<li>ARG - Argentina (South America)</li>
+											<li>FSM - Micronesia, Federated States of (Oceania)</li>
+											<li>GNB - Guinea-Bissau (Africa)</li>
+											<li>MHL - Marshall Islands (Oceania)</li>
+											<li>SYC - Seychelles (Africa)</li>	
 											</ul>
 												
-										<li>Testing Data</li>
-											<ul>
-											<li>R<sup>2</sup> value : 0.83474</li>
-											<li>Mean Absolute Error : 0.03738</li>
-											</ul>	
-										<li>Both the measures improved on the test data, as R<sup>2</sup> got closer to  1 , and the MAE reduced in size.</li>
-										<li>Confusion Matrix:</li>
-											<table style="width:100%; border-spacing:0;" border="1">
-											<tr><th>&nbsp;Predicted</th><th>&nbsp;False</th><th>&nbsp;True</th></tr>
-											<tr><td>&nbsp;0</td><td>&nbsp;69 (True Negative)</td><td>&nbsp;1 (False Positive)</td></tr>
-											<tr><td>&nbsp;1</td><td>&nbsp;3 (False Negative)</td><td>&nbsp;34 (True Positive)</td></tr>
-          
-        										</table>
-										</ul>
-										<span class="center"><img src="images/Validation.png" alt="" height="800" width="775"></span>		
-										<p>Gaussian  Model Result Explanation:</p>
-										<ul>
-										<li>The model exemplifies that the 4 features used (area, texture, smoothness, concavity) can be used to predict diagnosis with the caveat that they are assumed to be independent</li>
-											
-										</ul>
+										
 									</div>
 								</div>
 								
 								<div class="title title-pin text-left">
-									<h3>Visualization Of Simple Gaussian Naive Bayes</h3>
-									<div class="blog-text text-left">
-									<span class="right"><img src="images/gb1.png" alt="example graphic"></span>
-									<span class="right"><img src="images/gb2.png" alt="example graphic"></span>	
-       									<p>
-									<ul>
-										<li>A decision boundary computed for features from the model 
-										using Gaussian naive Bayes classification. 
-										The line shows the decision boundary, which corresponds
-										to the curve where a new point has equal posterior probability 
-										of being part of each class</li>
-										<li> We see a slightly curved boundary in the classifications—in general, 
-										the boundary in Gaussian naive Bayes is quadratic</li>
-										<li>Final Model is function of these individual probabilities</li>
-									</ul>
-									</p>	
-									</div>	
-								</div>
-								
-								<div class="title title-pin text-left">
-									<h3>Random Forest First Estimator Visualization</h3>
-									<div class="blog-text text-left">
-									<span class="right"><img src="images/randomForest.png" alt="example graphic" height="800" width="800"></span>	
-									<p> 
-									<ul>	
-										<li>Random Forest is built using multiple Decision Trees.</li>
-										<li>Random Forest can measure the relative importance of any feature in a classification task.</li>
-										<li>The value numbers returned from forest correspond to the importance of the feature in the classification task.</li>
-									</ul>
-									</p>	
 										
-									</div>	
 								</div>
 								
+								
 								<div class="title title-pin text-left">
-									<h3>Learnings and Findings</h3>	
+									<h3>Take away and Next steps</h3>	
 									<div class="blog-text text-left">
-									<ul>
-									<li>FNA visual interpretation technique coupled  with the Machine learning model can 
-									predict cancer diagnosis  with 96% accuracy,  helping start treatment at earliest
-									possible time </li>
-									<li>Importance of knowing the data</li>
-									</ul>
+										<li> Key Takeaways </li>	
+										<ul>
+											<li>Asian Countries (China, Taiwan, Korea) are fishing mainly in waters of Oceanic Countries</li>
+											<li>China is biggest and fastest growing county by fishing volume. China fished for over 1 Million hours in 2016, with second country was half the volume. China grew by over 150% CAGR between 2012 and 2016, 
+												while overall volume gre only by 30%. China is mainly fishing in Oceania region </li>
+											<li>European (Spain,France) Countries are mainly fish in neighbouring European countries. 
+												However, there is an increasing trend to fish in African and South American region</li>
+										</ul>
+										<li> Next Steps </li>
+										<ul>
+											<li>Identify trade agreements between countries to assess exploitation</li>
+										</ul>	
 									</div>	
 								</div>
 								
